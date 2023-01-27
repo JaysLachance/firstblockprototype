@@ -1,0 +1,9 @@
+.list-item {
+    width: 50%;
+    height: 200px;
+  }
+
+  .checkbox{
+    display: inline-block;
+    vertical-align: middle;
+  }

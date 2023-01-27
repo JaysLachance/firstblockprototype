@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This will make the container take up the full viewport height */
+  }
+
+.github-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 'center';
+    padding: 16px;
+    
+  }
+  
+  .github-login h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  
+  .github-login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+    width: 80%; /* make sure the login component follows the width of the rectangle container */
+  }
+  
+  .github-login label {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .github-login input {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .github-login button {
+    width: 100%;
+    padding: 14px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .github-login button:hover {
+    background-color: #45a049;
+  }
+
+  /* container for login */
+  .rectangle-container {
+    width: 40%; /* increase the width */
+    margin: 0 auto; /* center the container */
+    background-color: #383636;
+    border: 1px solid #ccc;
+    padding: 16px;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
